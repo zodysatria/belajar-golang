@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  golang-helloworld:
+    image: zodysatria/golang:1.15-small_image
+    ports:
+      - 8000:8000
+    
